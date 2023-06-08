@@ -21,7 +21,8 @@ export default {
     {
       title: 'Item Price',
       name: 'itemPrice',
-      type: 'number',
+      type: 'array',
+      of: [{type: 'number'}],
     },
   ],
 }
